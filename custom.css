@@ -58,3 +58,26 @@ ul, ol {
   .modal-footer {
     background-color: #f9f9f9;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .content {
+    padding-top: 102px;
+ 
+  }
+ 
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 50;
+  }
