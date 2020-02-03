@@ -81,3 +81,97 @@ ul, ol {
     display: table;
     padding: 50;
   }
+  .cbox{
+    border: 5px solid;
+  }
+  .rbox{
+    border: 10px solid yellow;
+  }
+  /* .affix {
+    position: fixed; 
+    top: 20px; 
+    left: 0px;
+  }*/
+
+  /* this css for search buttton in background image */
+
+  body {
+    font-family: Arial;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+/* this is for background image and search botton placement */
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: url("img/background.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    align-self: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /* this is for image suraj */
+  /* img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  } */
+
+  /* this for navbar position */
+
+ 
+  
